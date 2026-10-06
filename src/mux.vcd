@@ -1,0 +1,119 @@
+$date
+	Mon Oct  5 20:56:22 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_mux $end
+$var wire 1 ! e_tb $end
+$var reg 1 " a_tb $end
+$var reg 1 # b_tb $end
+$var reg 1 $ c_tb $end
+$var reg 1 % d_tb $end
+$var reg 2 & sel_tb [1:0] $end
+$scope module dut $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 1 $ c $end
+$var wire 1 % d $end
+$var wire 2 ' sel [1:0] $end
+$var reg 1 ! e $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx '
+bx &
+0%
+1$
+0#
+1"
+x!
+$end
+#5000
+1!
+b0 &
+b0 '
+#10000
+0!
+b1 &
+b1 '
+#15000
+1!
+b10 &
+b10 '
+#20000
+0!
+b11 &
+b11 '
+#25000
+1!
+b0 &
+b0 '
+#30000
+0!
+b1 &
+b1 '
+#35000
+1!
+b10 &
+b10 '
+#40000
+0!
+b11 &
+b11 '
+#45000
+1!
+b0 &
+b0 '
+#50000
+0!
+b1 &
+b1 '
+#55000
+1!
+b10 &
+b10 '
+#60000
+0!
+b11 &
+b11 '
+#65000
+1!
+b0 &
+b0 '
+#70000
+0!
+b1 &
+b1 '
+#75000
+1!
+b10 &
+b10 '
+#80000
+0!
+b11 &
+b11 '
+#85000
+1!
+b0 &
+b0 '
+#90000
+0!
+b1 &
+b1 '
+#95000
+1!
+b10 &
+b10 '
+#100000
+0!
+b11 &
+b11 '
