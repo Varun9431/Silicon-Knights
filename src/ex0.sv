@@ -16,11 +16,11 @@ module tb_ex0 ();
         .a(tb_a),
         .b(tb_b),
         .c(tb_c)
-    )
+    );      
 
     initial begin
-        $dumpfile("ex0.vcd");
-        $dumpvars(0, tb_ex0);
+        $dumpfile("ex0.vcd");       //don't include for vivado
+        $dumpvars(0, tb_ex0);       //don't include for vivado
         tb_a = 0;
         tb_b = 0;
     end
@@ -31,5 +31,10 @@ module tb_ex0 ();
 
     always begin
         #10 tb_b = ~tb_b;
+    end
+
+    always begin
+        #100;
+        $finish;
     end
 endmodule
