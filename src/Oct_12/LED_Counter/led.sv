@@ -22,5 +22,25 @@ module led (
     end
 
     assign led = led_reg;
+
+    // Question: Can I do this:
+
+    /*
+    always_ff @(posegde clk_out) begin
+        led <= led + 1;
+    end
+    */
+    //Instead of:
+    /*
+    logic [3:0] led_reg;
+    
+    always_ff @(posegde clk_out) begin
+        led_reg <= led_reg + 1;
+    end
+
+    assign led = led_reg;
+    */
+
+    //ANSWER: YES!!!
 endmodule
 
